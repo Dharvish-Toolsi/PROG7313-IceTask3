@@ -1,9 +1,7 @@
 package vcmsa.projects.prog7313icetask3
 
-import vcmsa.projects.prog7313icetask3.R
 import android.os.Bundle
 import android.view.View
-import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
