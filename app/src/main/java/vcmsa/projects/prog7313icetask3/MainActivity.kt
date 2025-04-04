@@ -94,6 +94,7 @@ class MainActivity : AppCompatActivity()
         InputNumber = textView.text.toString().toInt()
         SelectedOperation = '+'
         textView.setText("")
+        Toast.makeText(this, "Number saved.", Toast.LENGTH_SHORT).show()
     }
 
     fun btnMinusClick(view: View)
@@ -102,6 +103,7 @@ class MainActivity : AppCompatActivity()
         InputNumber = textView.text.toString().toInt()
         SelectedOperation = '-'
         textView.setText("")
+        Toast.makeText(this, "Number saved.", Toast.LENGTH_SHORT).show()
     }
 
     fun btnMultiplyClick(view: View)
@@ -110,6 +112,7 @@ class MainActivity : AppCompatActivity()
         InputNumber = textView.text.toString().toInt()
         SelectedOperation = '*'
         textView.setText("")
+        Toast.makeText(this, "Number saved.", Toast.LENGTH_SHORT).show()
     }
 
     fun btnDivideClick(view: View)
@@ -118,6 +121,7 @@ class MainActivity : AppCompatActivity()
         InputNumber = textView.text.toString().toInt()
         SelectedOperation = '/'
         textView.setText("")
+        Toast.makeText(this, "Number saved.", Toast.LENGTH_SHORT).show()
     }
 
     fun btnEqualsClick(view: View)
